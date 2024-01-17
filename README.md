@@ -71,7 +71,7 @@ Tout partage de code, d'explication, de bouts de texte, etc. est considéré com
 
 ## 2 - Description du projet
 
-La coopérative ```SauvonsLaPlanete``` fabrique des robot-compacteurs (nommés » compacteurs ») pour cannettes en aluminium dans le but de les recycler. Ces compacteurs, sont placés dans divers points de vente, comme les épiceries et les centres d’achat.
+La coopérative ```SauvonsLaPlanete``` fabrique des robot-compacteurs (nommés "compacteurs") pour cannettes en aluminium dans le but de les recycler. Ces compacteurs, sont placés dans divers points de vente, comme les épiceries et les centres d’achat.
 
 Deux personnes s'occupent de l'administration d'un compacteur :
 
@@ -161,7 +161,7 @@ Il doit correspondre aux données collectées dans l'historique de Git et de Tea
 - Présentation rapide de la structure du code et des choix de conception (5%)
 - Présentation du fonctionnement (5%)
 
-4. Code (50%)
+4. Code (55%)
 
 - Démarrage/fin du programme avec sauvegarde des données (5%)
 - Gestion des cannettes acceptées ou rejetées (5%)
