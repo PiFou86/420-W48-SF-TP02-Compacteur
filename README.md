@@ -1,4 +1,4 @@
-# TP02 - Compacteur de cannettes
+# TP02 - Compacteur de canettes
 
 ## 1 - Directives
 
@@ -71,7 +71,7 @@ Tout partage de code, d'explication, de bouts de texte, etc. est considéré com
 
 ## 2 - Description du projet
 
-La coopérative ```SauvonsLaPlanete``` fabrique des robot-compacteurs (nommés "compacteurs") pour cannettes en aluminium dans le but de les recycler. Ces compacteurs, sont placés dans divers points de vente, comme les épiceries et les centres d’achat.
+La coopérative ```SauvonsLaPlanete``` fabrique des robot-compacteurs (nommés "compacteurs") pour canettes en aluminium dans le but de les recycler. Ces compacteurs, sont placés dans divers points de vente, comme les épiceries et les centres d’achat.
 
 Deux personnes s'occupent de l'administration d'un compacteur :
 
@@ -82,9 +82,9 @@ Ce responsable peut aussi effectuer des actions sur le compacteur.
 
 Les compacteurs de la coopérative offrent les fonctionnalités suivantes :
 
-- Valider, compter et compacter les cannettes
+- Valider, compter et compacter les canettes
 - Imprimer le reçu de remboursement, à raison de 10 ¢ l’unité (en date de janvier 2024)
-- Pour chaque client, afficher le nombre de cannettes et le remboursement durant la transaction
+- Pour chaque client, afficher le nombre de canettes et le remboursement durant la transaction
 - Désactiver/réactiver la machine par un préposé selon divers situations (trop plein ou défectueuse)
 
 Un compacteur aura les systèmes suivants:
@@ -100,36 +100,36 @@ Un compacteur est une structure JSON décrite comme ceci:
 - Numéro unique
 - Adresse de l’emplacement
 - État (voir la liste plus loin)
-- Nombre total de cannettes récupérées
+- Nombre total de canettes récupérées
 - (Autres données au besoin)
 
 L’afficheur LCD indique divers états du compacteur durant la journée. Parmi les choix, vous proposez :
 
 - "En opération" (durant une transaction)
-- "Cannette non reconnue et rejetée"
-- "SVP, NE PAS tirer la cannette dans le compacteur"
+- "canette non reconnue et rejetée"
+- "SVP, NE PAS tirer la canette dans le compacteur"
 - "Impression du reçu de caisse"
 - (Autres statuts)
 
 ### 2.1 - Démarrage du programme
 
-Au démarrage, le système lit le fichier json. L’afficheur LCD indique l'état du compacteur selon le dernier état connu avant le démarrage du programme. L’afficheur numérique indique le nombre total de cannettes et le remboursement total avant la dernière remise à zéro. Les deux données sont affichées en alternance à toutes les secondes. 
+Au démarrage, le système lit le fichier json. L’afficheur LCD indique l'état du compacteur selon le dernier état connu avant le démarrage du programme. L’afficheur numérique indique le nombre total de canettes et le remboursement total avant la dernière remise à zéro. Les deux données sont affichées en alternance à toutes les secondes. 
 
 ### 2.2 - Déroulement d’une transaction
 
-Lorsqu’un client se présente devant le compacteur, il passe la première cannette devant le détecteur ultra-sonique qui "lit" la cannette. Une lecture valide doit se située entre 4 cm et 30 cm, sinon la cannette est rejetée. Par mesure de sécurité, un délai d’une seconde doit être respecté entre deux lectures successives, sinon le message "SVP, NE PAS tirer la cannette dans le compacteur "; la cannette est aussi rejetée!
+Lorsqu’un client se présente devant le compacteur, il passe la première canette devant le détecteur ultra-sonique qui "lit" la canette. Une lecture valide doit se située entre 4 cm et 30 cm, sinon la canette est rejetée. Par mesure de sécurité, un délai d’une seconde doit être respecté entre deux lectures successives, sinon le message "SVP, NE PAS tirer la canette dans le compacteur "; la canette est aussi rejetée!
 
-Pendant le déroulement normal, l’afficheur LCD indique "en opération". L’afficheur numérique indique le nombre de cannettes passées par le client et le montant du remboursement à venir; les deux données sont affichées en alternance à toutes les secondes. 
+Pendant le déroulement normal, l’afficheur LCD indique "en opération". L’afficheur numérique indique le nombre de canettes passées par le client et le montant du remboursement à venir; les deux données sont affichées en alternance à toutes les secondes. 
 
-Le client passe les autres cannettes dans le compacteur. À la fin, il appuie sur le bouton "» "fin de transaction" pour obtenir son reçu de remboursement et rendre le compacteur disponible pour le prochain client.
+Le client passe les autres canettes dans le compacteur. À la fin, il appuie sur le bouton "» "fin de transaction" pour obtenir son reçu de remboursement et rendre le compacteur disponible pour le prochain client.
 
 ### 2.3 - Gestion d’un compacteur
 
 Pour gérer à distance son compacteur, votre système doit se servir d’un serveur web en mode client. À l’aide de son téléphone cellulaire, le responsable du compacteur peut :
 
-- Consulter/remettre à zéro le nombre de cannettes compactées
+- Consulter/remettre à zéro le nombre de canettes compactées
 - Activer/désactiver le compacteur (même effet que le bouton "activer/désactiver" du préposé)
-- Consulter le total de cannettes récupérées
+- Consulter le total de canettes récupérées
 - Consulter le montant total reçu par les clients
 - Modifier l’adresse d’emplacement du compacteur lors d’un déplacement
 
@@ -164,7 +164,7 @@ Il doit correspondre aux données collectées dans l'historique de Git et de Tea
 4. Code (55%)
 
 - Démarrage/fin du programme avec sauvegarde des données (5%)
-- Gestion des cannettes acceptées ou rejetées (5%)
+- Gestion des canettes acceptées ou rejetées (5%)
 - Gestion du fichier JSON pour respecter les mises à jour (5%)
 - Affichage alternée sur l’afficheur numérique (5%) (à deux endroits)
 - Affichages des états d’une transaction qui respectent les opérations en cours (5%)
