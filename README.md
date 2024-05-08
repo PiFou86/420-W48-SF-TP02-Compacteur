@@ -4,7 +4,7 @@
 
 ### 1.1 - Déroulement du TP
 
-- Remise du travail : dimanche 28 janvier 2024, 23:59
+- Remise du travail : dimanche 19 mai 2024, 23:59
 - Ce travail est réalisé en équipe de 2 membres et seuls les membres de cette équipe y contribuent
 - Toutes les réponses fournies doivent être originales (produites par l’étudiant ou un membre de l’équipe)
 - Toute copie de code, de portion de code, d’algorithme ou de texte doit faire mention de sa source
@@ -145,15 +145,15 @@ Proposez et mettre en place une évolution originale au projet actuel en ajoutan
 
 ## 4 - Répartition des points
 
-1. Document word (25%)
+1. Document word (18%)
 
-- Contexte du projet (5%)
-- Planification, attribution des tâches (5%)
-- Description des étapes du projet (5%)
+- Contexte du projet (2%)
+- Planification, attribution des tâches (3%)
+- Description des étapes du projet (3%)
 - Diagramme de classes (5%)
 - Schéma du montage (5%)
 
-2. Registre des heures consacrées au projet (5%)
+2. Registre des heures consacrées au projet (2%)
 
 Le registre doit indiquer la répartition des tâches. Le registre doit montrer les tâches respectives que chaque personne aura fait avec le nombre d’heures par tâche.
 
@@ -165,14 +165,14 @@ Il doit correspondre aux données collectées dans l'historique de Git et de Tea
 - Présentation rapide de la structure du code et des choix de conception (5%)
 - Présentation du fonctionnement (5%)
 
-4. Code (55%)
+4. Code (65%)
 
 - Démarrage/fin du programme avec sauvegarde des données (5%)
 - Gestion des canettes acceptées ou rejetées (5%)
-- Gestion du fichier JSON pour respecter les mises à jour (5%)
+- Gestion du fichier JSON pour respecter les mises à jour (10%)
 - Affichage alternée sur l’afficheur numérique (5%) (à deux endroits)
 - Affichages des états d’une transaction qui respectent les opérations en cours (5%)
-- Les 5 fonctions de la gestion web du compacteur (10%)
+- Les 5 fonctions de la gestion web du compacteur (15%)
 - Respect des bonnes pratiques de programmation modulaire et orientée objet (20%)
 
-5. Bonus: mise en oeuvre d'une fonction supplémentaire originale (10%)
+5. Bonus: mise en oeuvre d'une fonction supplémentaire originale (5%)
