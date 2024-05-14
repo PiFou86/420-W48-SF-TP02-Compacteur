@@ -141,7 +141,7 @@ Proposez une interface confortable.
 
 ### 2.4 - Innovation : bonus 5% (optionnel)
 
-Proposez et mettre en place une évolution originale au projet actuel en ajoutant des fonctions. Le code et la vidéo seront évalués pour l’originalité, le niveau de difficulté et le résultat obtenu. Un bonus pouvant aller jusqu’à 10% sera attribué.
+Proposez et mettre en place une évolution originale au projet actuel en ajoutant des fonctions. Le code et la vidéo seront évalués pour l’originalité, le niveau de difficulté et le résultat obtenu. Un bonus pouvant aller jusqu’à 5% sera attribué.
 
 ## 4 - Répartition des points
 
